@@ -1,0 +1,49 @@
+# 機密情報
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# 結果（再生成可能）
+results/*.csv
+results/*.png
+!results/.gitkeep
+
+# ChromaDB のローカル永続化
+chroma_db/
+*.sqlite3-journal
+
+# モデルキャッシュ（数GB）
+.cache/
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.cursor/
+.idea/
+*.swp
+
+# ログ
+*.log
+logs/
