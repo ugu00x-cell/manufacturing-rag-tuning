@@ -1,5 +1,9 @@
 # manufacturing-rag-tuning
 
+[![Tests](https://github.com/ugu00x-cell/manufacturing-rag-tuning/actions/workflows/python-tests.yml/badge.svg)](https://github.com/ugu00x-cell/manufacturing-rag-tuning/actions/workflows/python-tests.yml)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 > 製造業の不良対応データを題材に、**RAGの精度改善手法**をベースラインから段階的に実装・比較するリポジトリです。
 >
 > 「**RAGを作ったけど回答がズレる**」という現場課題に対する、**実装ベースの解決策**を提示します。
